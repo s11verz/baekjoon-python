@@ -1,7 +1,6 @@
 def gcd(a,b):
     while(a%b!=0):
         mod=a%b
-        a=b
         b=mod
     return b
 
