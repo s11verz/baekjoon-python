@@ -1,3 +1,5 @@
+#괄호
+
 t=int(input())
 result=[]
 
