@@ -1,3 +1,5 @@
+#제로
+
 k=int(input())
 arr=[]
 for i in range(k):
