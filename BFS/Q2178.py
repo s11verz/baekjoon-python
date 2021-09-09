@@ -1,9 +1,10 @@
 from collections import deque
 n, m = map(int, input().split())
-#arr = [list(map(int, input().split())) for _ in range(n)]
-arr=[]
-for _ in range(n):
-  arr.append(list(map(int, input())))
+arr = [list(map(int, input())) for _ in range(n)]
+# arr=[]
+# for _ in range(n):
+#   arr.append(list(map(int, input())))
+
 
 
 def bfs(x,y):
